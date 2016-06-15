@@ -1,0 +1,102 @@
+/* line 1, ../sass/page.index.scss */
+.top-tit {
+    padding: 25px 0 45px 0;
+    font: 18px/1.2 "Microsoft Yahei";
+    color: #6a6a6a;
+    text-align: center;
+}
+/* line 6, ../sass/page.index.scss */
+.top-tit .en {
+  font: 9px "Arial";
+  color: #b9b9b9;
+  text-transform: uppercase;
+}
+/* line 11, ../sass/page.index.scss */
+.top-tit:after {
+  display: block;
+  margin: 8px auto 0;
+  content: "";
+  width: 33px;
+  height: 2px;
+  background: #e72741;
+}
+
+/* line 22, ../sass/page.index.scss */
+.show-list > ul {
+  margin-left: -7px;
+  overflow: hidden;
+}
+/* line 25, ../sass/page.index.scss */
+.show-list > ul > li {
+  float: left;
+  margin: 0 7px 7px 0;
+  width: 234px;
+  height: 184px;
+  overflow: hidden;
+}
+/* line 31, ../sass/page.index.scss */
+.show-list > ul > li.show-pic-bg {
+  background: url(../Images/show_pic_bg.jpg) no-repeat;
+  width: 234px;
+  height: 184px;
+}
+/* line 35, ../sass/page.index.scss */
+.show-list > ul > li.show-pic-bg .txt-box {
+  margin: 70px auto;
+  width: 80px;
+  font-family: "Microsoft Yahei";
+  color: #fff;
+  text-align: right;
+}
+/* line 41, ../sass/page.index.scss */
+.show-list > ul > li.show-pic-bg .txt-box .en {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+/* line 45, ../sass/page.index.scss */
+.show-list > ul > li.show-pic-bg .txt-box .zh {
+  font-size: 20px;
+}
+
+/* line 54, ../sass/page.index.scss */
+.btn-more {
+  padding: 40px 0 60px;
+  text-align: center;
+}
+/* line 62, ../sass/page.index.scss */
+.btn-more a {
+  display: inline-block;
+  width: 128px;
+  height: 30px;
+  background: #e72741;
+  border: none;
+  color: #fff;
+  font: 11px/30px "Microsoft Yahei";
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 72, ../sass/page.index.scss */
+.btn-more a:hover, .btn-more a:focus {
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+/* line 77, ../sass/page.index.scss */
+.btn-more a .arrow-icon {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: -2px;
+  border-style: dashed dashed dashed solid;
+  border-width: 7px 0 7px 12px;
+  border-color: transparent transparent transparent #fff;
+}
+/* line 83, ../sass/page.index.scss */
+.btn-more a .arrow-icon:after {
+  position: absolute;
+  left: -11px;
+  top: -5px;
+  content: "";
+  border-style: dashed dashed dashed solid;
+  border-width: 5px 0 5px 10px;
+  border-color: transparent transparent transparent #e72741;
+}
