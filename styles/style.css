@@ -101,8 +101,7 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
-  float: left; }
+  display: block; }
 
 body {
   font: normal 12px/1.5 "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
@@ -138,7 +137,8 @@ input,
 button,
 button img,
 label {
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-size: 100%; }
 
 input {
   font-family: "Microsoft Yahei", "微软雅黑";
@@ -300,11 +300,11 @@ strong {
           font-size: 16px;
           font-weight: bold;
           color: #5e5e5e; }
-  .footer .footer-copyRight {
+  .footer .footer-copyright {
     margin-top: 50px;
     text-align: center;
     color: #777; }
-    .footer .footer-copyRight .num-cont {
+    .footer .footer-copyright .num-cont {
       font: 15px/2 "Microsoft Yahei";
       color: #5e5e5e;
       text-transform: uppercase; }

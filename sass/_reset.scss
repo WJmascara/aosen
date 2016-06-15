@@ -107,7 +107,6 @@ menu,
 nav,
 section {
     display: block;
-    float: left;
 }
 
 body {
@@ -152,6 +151,7 @@ button,
 button img,
 label {
     vertical-align: middle;
+    font-size: 100%;
 }
 
 input {
